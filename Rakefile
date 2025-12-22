@@ -3,13 +3,27 @@ require 'kramdown'
 require 'liquid'
 require 'yaml'
 
-def template_path template
-  template.pathmap('templates/%n.html.liquid')
+ROOT_DIR = File.dirname(__FILE__)
+SITE_DATA = YAML.safe_load(File.read('site_config.yaml'))
+TEMPLATE_DIR = File.join(ROOT_DIR, 'templates')
+
+LIQUID_ENVIRONMENT = Liquid::Environment.build(
+  :file_system => Liquid::LocalFileSystem.new(TEMPLATE_DIR),
+)
+LIQUID_OPTIONS = { environment: LIQUID_ENVIRONMENT }
+
+TEMPLATES = {}
+def load_template template
+  if not TEMPLATES[template]
+    template_file = File.join(TEMPLATE_DIR, template.pathmap('%n.liquid'))
+    source = File.read(template_file)
+    TEMPLATES[template] = Liquid::Template.parse(source, LIQUID_OPTIONS)
+  end
+  TEMPLATES[template]
 end
 
-DEFAULT_TEMPLATE = 'base'
-templates = {}
-templates[DEFAULT_TEMPLATE] = Liquid::Template.parse(File.read(template_path DEFAULT_TEMPLATE))
+DEFAULT_TEMPLATE_NAME = SITE_DATA['default_template'] || 'base'
+DEFAULT_TEMPLATE = load_template DEFAULT_TEMPLATE_NAME
 
 # From Jekyll, https://github.com/jekyll/jekyll
 # available under MIT license
@@ -21,14 +35,16 @@ task :default => %w[build]
 
 task :build => %w[public html]
 
-markdown_files = FileList.new('**/*.md', '**/*.markdown') do |fl|
+markdown_files = FileList.new('**/*.md') { |fl|
   fl.exclude(/^readme/i)
   fl.exclude('~*')
-end
-task :html => markdown_files.pathmap('public/%n.html')
+}.to_a.to_h { |path|
+  [path.pathmap('public/%n.html'), path]
+}
+task :html => markdown_files.keys
 
 rule '.html' => [
-  proc { |tn| tn.sub(/\.html/, '.md').sub(/^public\//, '') }
+  proc { |tn| markdown_files[tn] },
 ] do |t|
   source = File.read t.source
   basename = t.source.pathmap('%n')
@@ -39,21 +55,20 @@ rule '.html' => [
     data = YAML.safe_load(Regexp.last_match 1)
   end
 
-  template = data['template'] || basename
-  if not templates[template]
-    template_file = template_path template
-    if File.exist?(template_file)
-      templates[template] = Liquid::Template.parse(File.read(template_file))
-    else
-      template = DEFAULT_TEMPLATE
-    end
+  template_name = data['template'] || basename
+  begin
+    template = load_template template_name
+  rescue Errno::ENOENT
+    template = DEFAULT_TEMPLATE
   end
 
   doc = Kramdown::Document.new(source, KRAMDOWN_OPTS)
   data['filename'] = basename
   data['body'] = doc.to_html
+  data['site'] = SITE_DATA
 
-  File.write(t.name, templates[template].render(data))
+  rendered = template.render!(data)
+  File.write(t.name, rendered)
 end
 
 directory 'public'
@@ -62,3 +77,14 @@ file 'public' do
 end
 
 CLOBBER << 'public'
+
+task :serve => :build do
+  require 'webrick'
+
+  root = File.expand_path(File.join(ROOT_DIR, 'public'))
+
+  server = WEBrick::HTTPServer.new :Port => 8080, :DocumentRoot => root
+  trap 'INT'  do server.shutdown end
+  trap 'TERM' do server.shutdown.end
+  server.start
+end
