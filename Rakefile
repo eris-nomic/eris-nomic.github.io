@@ -35,7 +35,7 @@ task :default => %w[build]
 
 task :build => %w[public html]
 
-markdown_files = FileList.new('**/*.md') { |fl|
+markdown_files = FileList.new('pages/**/*.md') { |fl|
   fl.exclude(/^readme/i)
   fl.exclude('~*')
 }.to_a.to_h { |path|

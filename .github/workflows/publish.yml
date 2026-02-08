@@ -20,13 +20,13 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout web template
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
               with:
                   ref: web
             - name: Checkout main
-              uses: actions/checkout@v4
+              uses: actions/checkout@v6
               with:
-                  path: rules
+                  path: pages/rules
             - name: Setup GitHub Pages
               uses: actions/configure-pages@v5
             - name: Set up Ruby
