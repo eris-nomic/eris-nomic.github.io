@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem "rake"
+
 gem "kramdown", "~> 2.5"
 
 gem "liquid", "~> 5.11"
