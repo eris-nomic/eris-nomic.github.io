@@ -37,7 +37,7 @@ jobs:
             - name: Build static website
               run: bundle exec rake
             - name: Upload static files as artifact
-              uses: actions/upload-pages-artifact
+              uses: actions/upload-pages-artifact@v3
               with:
                   path: './public'
 

@@ -1,1 +1,6 @@
+*.gem
+*.rbc
+/.config
+/tmp/
+
 /public
