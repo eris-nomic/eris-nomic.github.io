@@ -7,3 +7,5 @@ gem "kramdown", "~> 2.5"
 gem "liquid", "~> 5.11"
 
 gem "webrick", "~> 1.9"
+
+gem "base64", "~> 0.3.0"
