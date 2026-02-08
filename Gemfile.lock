@@ -7,6 +7,7 @@ GEM
     liquid (5.11.0)
       bigdecimal
       strscan (>= 3.1.1)
+    rake (13.3.1)
     rexml (3.4.4)
     strscan (3.1.5)
     webrick (1.9.2)
@@ -18,6 +19,7 @@ PLATFORMS
 DEPENDENCIES
   kramdown (~> 2.5)
   liquid (~> 5.11)
+  rake
   webrick (~> 1.9)
 
 BUNDLED WITH
