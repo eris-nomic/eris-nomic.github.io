@@ -85,6 +85,6 @@ task :serve => :build do
 
   server = WEBrick::HTTPServer.new :Port => 8080, :DocumentRoot => root
   trap 'INT'  do server.shutdown end
-  trap 'TERM' do server.shutdown.end
+  trap 'TERM' do server.shutdown end
   server.start
 end
