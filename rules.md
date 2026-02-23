@@ -1,3 +1,7 @@
+---
+title: Rules
+---
+
 ## 101
 
 All players must always abide by all the rules then in effect, in the form in
@@ -199,7 +203,7 @@ wins in this way:
 
 ## 212
 
-At no time may there be more than 25 mutable rules.
+At no time may there be more than 33 mutable rules.
 
 ## 213
 
