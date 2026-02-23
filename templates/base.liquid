@@ -1,11 +1,13 @@
 <!DOCTYPE HTML5>
 <html>
 <head>
-    {%- render "head", title: title, site: site -%}
+	{%- render "head", title: title, site: site -%}
 </head>
 <body>
-    {%- render "header" -%}
-    {{- body -}}
-    {%- render "footer" -%}
+	<main class="container">
+		{%- render "header", title: title, site: site -%}
+		{{- body -}}
+		{%- render "footer", title: title, site: site -%}
+	</main>
 </body>
 </html>

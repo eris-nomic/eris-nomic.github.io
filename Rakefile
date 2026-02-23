@@ -39,7 +39,7 @@ markdown_files = FileList.new('pages/**/*.md') { |fl|
   fl.exclude(/^readme/i)
   fl.exclude('~*')
 }.to_a.to_h { |path|
-  [path.pathmap('public/%n.html'), path]
+  [path.pathmap('%{^pages,public}d/%n.html'), path]
 }
 task :html => markdown_files.keys
 
@@ -55,10 +55,11 @@ rule '.html' => [
     data = YAML.safe_load(Regexp.last_match 1)
   end
 
-  template_name = data['template'] || basename
+  template_name = data['template'] || DEFAULT_TEMPLATE_NAME
   begin
     template = load_template template_name
   rescue Errno::ENOENT
+    STDERR.puts "Error: `#{t.source}' requested template `#{template_name}', but corresponding file not found."
     template = DEFAULT_TEMPLATE
   end
 

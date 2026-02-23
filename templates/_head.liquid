@@ -1,4 +1,12 @@
-<title>{{ title }} | {{ site.title }}</title>
+<title>
+	{% if title %}
+		{{ title }} | {{ site.title }}
+	{% else %}
+		{{ site.title }}
+	{% endif %}
+</title>
 <meta charset="{{ charset | default: "utf-8" }}">
-<link rel="stylesheet" href="{{ site.base_url }}/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="/pico.min.css">
 <base target="_blank">
