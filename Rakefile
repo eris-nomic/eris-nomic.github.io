@@ -1,3 +1,4 @@
+require 'fileutils'
 require 'rake/clean'
 require 'kramdown'
 require 'liquid'
@@ -48,6 +49,9 @@ rule '.html' => [
 ] do |t|
   source = File.read t.source
   basename = t.source.pathmap('%n')
+  dir = t.source.pathmap('%{^pages,public}d')
+  directory dir
+  FileUtils.mkdir_p dir
 
   data = {}
   if source =~ YAML_FRONT_MATTER_REGEXP
@@ -76,8 +80,6 @@ directory 'public'
 file 'public' do
   cp Dir['static/*'], 'public'
 end
-
-directory 'public/rules'
 
 CLOBBER << 'public'
 
