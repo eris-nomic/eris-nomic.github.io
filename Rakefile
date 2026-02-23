@@ -77,6 +77,8 @@ file 'public' do
   cp Dir['static/*'], 'public'
 end
 
+directory 'public/rules'
+
 CLOBBER << 'public'
 
 task :serve => :build do
