@@ -47,19 +47,23 @@ task :html => markdown_files.keys
 rule '.html' => [
   proc { |tn| markdown_files[tn] },
 ] do |t|
-  source = File.read t.source
-  basename = t.source.pathmap('%n')
-  dir = t.source.pathmap('%{^pages,public}d')
+  source   = File.read t.source
+  pathname = Pathname.new(t.name)
+  dir      = pathname.dirname.to_s
+  relpath  = pathname.relative_path_from('public')
   directory dir
   FileUtils.mkdir_p dir
 
-  data = {}
+  page_data = {}
   if source =~ YAML_FRONT_MATTER_REGEXP
     source = Regexp.last_match.post_match
-    data = YAML.safe_load(Regexp.last_match 1)
+    page_data = YAML.safe_load(Regexp.last_match 1)
   end
+  page_data['file'] ||= pathname.basename.to_s
+  page_data['path'] ||= relpath.to_s
+  page_data['dir']  ||= relpath.dirname.to_s
 
-  template_name = data['template'] || DEFAULT_TEMPLATE_NAME
+  template_name = page_data['template'] || DEFAULT_TEMPLATE_NAME
   begin
     template = load_template template_name
   rescue Errno::ENOENT
@@ -68,7 +72,8 @@ rule '.html' => [
   end
 
   doc = Kramdown::Document.new(source, KRAMDOWN_OPTS)
-  data['filename'] = basename
+  data = {}
+  data['page'] = page_data
   data['body'] = doc.to_html
   data['site'] = SITE_DATA
 
