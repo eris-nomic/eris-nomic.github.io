@@ -133,11 +133,17 @@ declaration to that effect, and likewise can opt in by the same method.
 
 A bot may never be considered to be a player.
 
-## 201
+## 201 (amended by 301)
 
-Players shall alternate in alphabetical order by username, taking one whole turn
-apiece. Turns may not be skipped or passed, and parts of turns may not be
-omitted.
+While there is not an active turn, any eligible player may take a turn. Theirs
+becomes the active turn until that turn is completed.
+
+All players are eligible to take a turn in this way. A player becomes ineligible
+after they have taken a turn, until either of the following (whichever is
+first):
+
+* 168 hours have passed since the end of that player's most recent turn,
+* or there are no other eligible players.
 
 ## 202
 
@@ -291,3 +297,10 @@ following duties:
 * making random choices when needed by the rules.
 * keeping track of turns, and (while turn order exists) declaring whose turn is
   next.
+
+## 301
+
+This is an amendment to rule 201.
+
+1. This amendment may be referred to as the No Turn Order Act.
+2. This amendment replaces the text of rule 201.
