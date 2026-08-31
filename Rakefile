@@ -98,3 +98,58 @@ task :serve => :build do
   trap 'TERM' do server.shutdown end
   server.start
 end
+
+task :"serve-https" => :build do
+  require 'openssl'
+  require 'webrick'
+  require 'webrick/https'
+
+  root = File.expand_path(File.join(ROOT_DIR, 'public'))
+
+  https = WEBrick::HTTPServer.new(
+    :Port => 8443,
+    :DocumentRoot => root,
+    :SSLEnable => true,
+    :SSLCertificate => OpenSSL::X509::Certificate.new(File.read('https/cert.pem')),
+    :SSLPrivateKey => OpenSSL::PKey::RSA.new(File.read('https/key.pem')),
+    :SSLCertName => [["CN", WEBrick::Utils::getservername]],
+  )
+
+  http = WEBrick::HTTPServer.new(
+    :Port => 8080,
+    :DocumentRoot => root,
+  )
+
+
+  class RedirectServlet < WEBrick::HTTPServlet::AbstractServlet
+    def do_GET(req, res)
+      uri = req.request_uri
+      uri.port = 8443
+      uri.scheme = 'https'
+
+      res.status = 301
+      res['Location'] = uri
+      res['Content-Type'] = 'text/plain'
+      res.body = "Redirecting to HTTPS\n"
+    end
+
+    alias do_POST   do_GET
+    alias do_PUT    do_GET
+    alias do_DELETE do_GET
+    alias do_HEAD   do_GET
+  end
+
+  http.mount('/', RedirectServlet)
+
+  trap 'INT' do
+    http.shutdown
+    https.shutdown
+  end
+  trap 'TERM' do
+    http.shutdown
+    https.shutdown
+  end
+
+  Thread.new { http.start }
+  https.start
+end
