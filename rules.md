@@ -304,3 +304,17 @@ This is an amendment to rule 201.
 
 1. This amendment may be referred to as the No Turn Order Act.
 2. This amendment replaces the text of rule 201.
+
+## 302
+
+This rule may be referred to as 'the Vote Conclusion Act'
+
+When a proposal is being voted on, the voting shall end and the votes shall be
+counted when 24 hours have passed and one or more of the following conditions
+are met:
+
+* The player proposing the rule-change has ended their turn
+* 72 hours have passed since the proposal was made and the proposal has received
+  votes from at least a quorum of players
+* No additional votes could cause the proposal to fail
+* No additional votes could cause the proposal to succeed
