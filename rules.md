@@ -318,3 +318,10 @@ are met:
   votes from at least a quorum of players
 * No additional votes could cause the proposal to fail
 * No additional votes could cause the proposal to succeed
+
+## 303
+
+Whenever an official judgement on a rule is made as specified in R214, that
+judgement shall be recorded. When an official judgement is thus recorded, it
+shall be assigned a unique identifier in the form "OJ2xx.[letter]", where 2xx is
+the rule that the judgement is on
