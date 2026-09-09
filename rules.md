@@ -325,3 +325,44 @@ Whenever an official judgement on a rule is made as specified in R214, that
 judgement shall be recorded. When an official judgement is thus recorded, it
 shall be assigned a unique identifier in the form "OJ2xx.[letter]", where 2xx is
 the rule that the judgement is on
+
+## 304
+
+This rule may be referred to as the Voting Reform Act.
+
+Whenever a vote is called for by the rules, the proposal or other circumstance
+being voted on may be referred to as the motion being voted on, or simply the
+motion. All motions shall be posted in the `#⁠voting` channel before they are
+voted on. The player who caused the motion to begin (normally, the player who
+proposed the motion) is considered the sponsor of the motion, unless a sponsor
+is otherwise provided by the rules.
+
+No vote shall be considered final until at least 24 hours have passed since the
+vote being called for.
+
+If a motion requires some number of votes to pass, it cannot pass without a
+quorum of players having voted. Motions passing by unanimous consent, or which
+could otherwise pass without any votes, are exempt from this requirement.
+
+Once a quorum of players has been achieved (if quorum is needed) and at least 72
+hours have passed since the vote was called for, the sponsor of the motion may
+at any time declare the vote ended.
+
+Players are allowed to cast a vote of "present" by indicating something to that
+effect. This is a valid vote for all purposes, including for achieving quorum,
+but is not considered a favorable vote or a vote against.
+
+When a vote ends, for determining whether the motion passes, only the players
+who cast a vote on the motion are considered to have been eligible to vote on
+that motion. This does not affect whether the motion achieved quorum.
+
+A motion may be defined as passing by unanimous consent (which may also be
+referred to as passing without objection). Such a motion is considered to pass
+if no vote against the motion is made within the provided time.
+
+A motion may be defined as passing by unanimous approval. Such a motion passes
+if and only if the motion receives a favorable vote from every eligible voter
+within the provided time.
+
+If any clause of this rule is or becomes illegal, that clause is rendered void
+without invalidating the rest of the rule.
