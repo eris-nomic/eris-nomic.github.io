@@ -366,3 +366,34 @@ within the provided time.
 
 If any clause of this rule is or becomes illegal, that clause is rendered void
 without invalidating the rest of the rule.
+
+## 305
+
+This rule may also be referred to as the 'Non-Functional Tokens Act' or the
+'NFT Act'
+
+When adopted, this proposal will have two immediate effects:
+
+1. Each player will have all of their points converted into coins at a 1:1
+  conversion rate
+2. A new official channel will be added to the Discord titled 'transactions'
+
+Players may have any whole integer number of coins. A player's personal store of
+coins is referred to as their 'bank.'
+
+Coins may not be gained, lost, or moved except as explicitly stated in the
+rules.
+
+Any rule that would give a player points instead give that many coins. This
+rule does not effect rules 211 or 208.
+
+At any point, a player may subtract any positive integer number of coins from
+their own bank and add that number to another player's bank. To take this
+action, a player must clearly state how many coins they wish to give and which
+player they wish to give those coins to. This declaration must be posted in the
+'transactions' channel
+
+The 'transactions' channel may only be used to officially state the transfer,
+generation, or destruction of coins. This includes the coins gained at the end
+of a player's turn and any instance of giving coins to another player, as
+described in the above paragraph.
