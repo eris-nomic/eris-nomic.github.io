@@ -397,3 +397,18 @@ The 'transactions' channel may only be used to officially state the transfer,
 generation, or destruction of coins. This includes the coins gained at the end
 of a player's turn and any instance of giving coins to another player, as
 described in the above paragraph.
+
+## 306
+
+This rule may be referred to as the "Rules Tracking For Mutables Act" or the
+"RTFM Act".
+
+In addition to other duties listed elsewhere in the rules, the Speaker has the
+following duties:
+
+* keeping a tally of the number of mutable rules currently in effect, and
+  updating this tally after each successful rules change.
+* keeping a tally of the number of immutable rules currently in effect, and
+  updating this tally after each successful rules change.
+* keeping a tally of the total number of rules currently in effect, and
+  updating this tally after each successful rules change.
