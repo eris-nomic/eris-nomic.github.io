@@ -298,14 +298,14 @@ following duties:
 * keeping track of turns, and (while turn order exists) declaring whose turn is
   next.
 
-## 301
+## 301. No Turn Order Act
 
 This is an amendment to rule 201.
 
 1. This amendment may be referred to as the No Turn Order Act.
 2. This amendment replaces the text of rule 201.
 
-## 302
+## 302. The Vote Conclusion Act
 
 This rule may be referred to as 'the Vote Conclusion Act'
 
@@ -326,7 +326,7 @@ judgement shall be recorded. When an official judgement is thus recorded, it
 shall be assigned a unique identifier in the form "OJ2xx.[letter]", where 2xx is
 the rule that the judgement is on
 
-## 304
+## 304. Voting Reform Act
 
 This rule may be referred to as the Voting Reform Act.
 
@@ -367,7 +367,7 @@ within the provided time.
 If any clause of this rule is or becomes illegal, that clause is rendered void
 without invalidating the rest of the rule.
 
-## 305
+## 305. Non-Functional Tokens Act (NFT Act)
 
 This rule may also be referred to as the 'Non-Functional Tokens Act' or the
 'NFT Act'
@@ -398,7 +398,7 @@ generation, or destruction of coins. This includes the coins gained at the end
 of a player's turn and any instance of giving coins to another player, as
 described in the above paragraph.
 
-## 306
+## 306. Rules Tracking For Mutables Act (RTFM Act)
 
 This rule may be referred to as the "Rules Tracking For Mutables Act" or the
 "RTFM Act".
@@ -412,3 +412,18 @@ following duties:
   updating this tally after each successful rules change.
 * keeping a tally of the total number of rules currently in effect, and
   updating this tally after each successful rules change.
+
+## 307. Names of Acts Act
+
+This rule may be referred to as the Names of Acts Act.
+
+Each proposed rule-change shall have a name attached to it. Rules (either
+enacted or proposed) may be referred to by either their number or by their name,
+which are considered interchangeable.
+
+The list of rules as available to the players shall indicate the name for each
+rule along with its number.
+
+All rules already in existence without a name shall have a name assigned to
+them. Any player may at any time propose a name for an unnamed rule. A proposed
+name becomes the official name for that rule if it passes by unanimous consent.
