@@ -427,3 +427,57 @@ rule along with its number.
 All rules already in existence without a name shall have a name assigned to
 them. Any player may at any time propose a name for an unnamed rule. A proposed
 name becomes the official name for that rule if it passes by unanimous consent.
+
+## 308. Player On-Boarding Act (POBA)
+
+This rule may be referred to as the 'Player On-Boarding Act' or POBA.
+
+**Invitation**
+
+At any point, a player may invite someone who is not currently a player to join
+the server.
+
+**Tourists**
+
+When a person joins the server, they shall not be regarded as players until they
+have passed the Trials. Such persons shall be referred to as 'tourists.'
+Tourists must abide by all rules, but are not permitted to take any official
+actions excluding those specified under **The Trials**, and are exempt from any
+random selections (such as appointing a judge). Tourists are encouraged to
+observe legal proceedings, engage in unofficial discussion, and study the law.
+
+**The Trials**
+
+At any point 24 hours after joining the server, a tourist may choose to face the
+Trials by declaring intention in the _official_ channel. When a tourist chooses
+to face the Trials, three players shall be randomly selected to administer the
+Trials. The selected players shall be referred to as the 'proctors,' and are
+responsible for constructing and administering three Trials. The tourist being
+judged shall be referred to as a 'candidate,' and a thread shall be opened in
+_official_ to administer the Trials. This image
+<https://i.kym-cdn.com/photos/images/original/001/493/192/91d.png>, or one of
+similar quality and intent shall be posted in the Trial thread.
+
+The first Trial shall challenge the candidate's moral standing. The candidate
+must face an ethical or philosophical dilemma, such as
+<https://neal.fun/absurd-trolley-problems/>.
+
+The second Trial shall measure the candidate's understanding of law. This should
+be a legal question regarding the rules at the time of the Trial. The candidate
+must be allowed time and access to review all relevant rules before concluding
+this test.
+
+The third Trial shall engage the candidate's creative potential. The subject
+matter of this Trial must be strictly 'un-serious,' and allow multiple
+solutions.
+
+The precise manner of the Trials is left to the discretion of the proctors.
+
+Upon completing the three tests, a proctor shall open a vote of unanimous
+consent. If this vote passes, the candidate shall be granted full player status.
+If the vote is rejected, the candidate may not face the Trials again until 48
+hours have passed.
+
+If any proctor fails to serve in their role for over 24 hours, a different
+randomly selected player may be called to replace them. Players already serving
+as proctor are excluded from this selection.
