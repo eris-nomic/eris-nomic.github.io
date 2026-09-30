@@ -2,7 +2,7 @@
 title: Rules
 ---
 
-## 101
+## 101. Follow the Rules Rule
 
 All players must always abide by all the rules then in effect, in the form in
 which they are then in effect. The rules in the Initial Set are in effect
