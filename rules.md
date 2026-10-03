@@ -481,3 +481,43 @@ hours have passed.
 If any proctor fails to serve in their role for over 24 hours, a different
 randomly selected player may be called to replace them. Players already serving
 as proctor are excluded from this selection.
+
+## 309. Offices and Elections Act
+
+This rule may be referred to as the Offices and Elections Act.
+
+Rules may establish an office as part of the rule. Players can hold offices. The
+rules shall define for each particular office what its powers and
+responsibilities are, and how a player becomes a holder of that office.
+
+Unless otherwise stated, each office may be held by only one player at a time.
+An office not held by any players is considered vacant.
+
+Some offices may be offered to players with the right to refuse the office. When
+a player has the right to refuse an office, that player is not considered to
+hold the office offered to them unless and until they explicitly accept that
+office. If the player refuses the office, or if 72 hours pass since the office
+was offered without the player accepting the office, the office is made vacant.
+
+An office may be defined as an elected office. If an elected office is vacant,
+any player may at any time nominate themself or another player to that office.
+Players have the right to refuse a nomination, following the same procedure as
+refusing an office.
+
+When a player is nominated, that player takes on that office if the motion of
+nomination passes without objection. If multiple players are nominated for the
+same elected office at the same time, players instead cast votes in favor of one
+of the nominated players. At the end of this vote, if any player received a
+majority of votes, that player takes on the office nominated for. Otherwise, the
+office remains vacant.
+
+The Speaker is an office.
+
+The Judge is an office. The office of Judge is held only when provided by the
+rules, and is vacant at all other times.
+
+The Director of Personnel is an elected office. The Director of Personnel shall
+keep an up-to-date list of all offices, and make this list available to players.
+For each of these offices, the list shall indicate all rules establishing that
+office and its duties, and the list shall indicate all players currently holding
+that office.
