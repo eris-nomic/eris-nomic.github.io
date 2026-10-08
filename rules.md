@@ -521,3 +521,32 @@ keep an up-to-date list of all offices, and make this list available to players.
 For each of these offices, the list shall indicate all rules establishing that
 office and its duties, and the list shall indicate all players currently holding
 that office.
+
+## 310. Orderly Composition Directive
+
+The purpose of this rule is to standardize the format of proposed rules. Thus
+allowing for easier referencing of the proposal, and referencing when a
+judgement is called with a rule in question.
+
+1. The opening paragraph for a rule will establish the goal of the rule. The
+   opening paragraph shall not include legislative details of the rule itself,
+   but only include intent and reason for the proposal’s necessity. The opening
+   paragraph can be referenced as "###: Opening Section"
+
+2. Each paragraph after the opening will be separated into sections, with
+   exception to the "Opening" addressed in 310: Section 1 and the "Closing"
+   addressed in 310: Section 3. These sections will include each detail
+   regarding the rule, and be labeled in numerical order, with subsections in
+   alphabetical.
+
+   * A. I don't have a subsection for this rule, just making an example.
+   * B. 310: Subsection 2.A looked lonely, so here's 310: Subsection 2.B.
+
+3. If the author of the proposal chooses, they may include a closing statement.
+   This section is much like the opening. No further legislative details should
+   be included, but provides a space for the author to give clarity on the
+   spirit of the rule, and set up future rules that may build in the current.
+
+It is the hope that this rule provides a standard structure to allow an easy way
+for debaters to reference specific sections, and allow rules for future
+amendments to address specific sections, instead of entire rules.
