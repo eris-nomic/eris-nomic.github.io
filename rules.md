@@ -550,3 +550,41 @@ judgement is called with a rule in question.
 It is the hope that this rule provides a standard structure to allow an easy way
 for debaters to reference specific sections, and allow rules for future
 amendments to address specific sections, instead of entire rules.
+
+## 311. Court Jester Act
+
+This rule establishes the Court Jester office, the means of instating a new
+jester, the means of removing a court jester, and the responsibilities
+associated with the office.
+
+1. **Instatement:** This rule establishes the Court Jester office.
+
+   * A. When vacant, any player may move to select a new court jester from
+     eligible players at random, using https://wheelofnames.com/.
+   * B. Players currently holding another office are not eligible. If the court
+     jester enters a new office, they cease to be the court jester and the title
+     becomes vacant.
+
+2. **Funny Business:** A court jester is responsible for whimsy, heckling, and
+   hijinks.
+
+   * A. When judgement is invoked, a court jester may heckle the judge.
+   * B. When a court jester proposes a rule, their proposal shall not be
+     oriented toward peace or stability, but shall instead focus on humor,
+     whimsy, and chaos.
+   * C. Any and all heckling must be conducted in a kind and playful manner. If
+     any player states they do not wish to be heckled, they shall not be
+     heckled.
+
+3. **Removal:** A court jester will have the position revoked under any of the
+   following conditions.
+
+   * A. The court jester takes on another office.
+   * B. The court jester chooses to step down.
+   * C. Any player moves to impeach the court jester, passing with a vote of
+     unanimous consent which the court jester cannot vote in. This motion passes
+     after 24 hours.
+
+Note that the impeachment of a court jester should be approached with all the
+attributes demanded by the position. Whimsy, comedy, and chaos. A new court
+jester can be instated immediately after removing a previous holder.
