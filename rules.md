@@ -588,3 +588,19 @@ associated with the office.
 Note that the impeachment of a court jester should be approached with all the
 attributes demanded by the position. Whimsy, comedy, and chaos. A new court
 jester can be instated immediately after removing a previous holder.
+
+## 312. Bribery Act
+
+Whereas coins have not yet found much use, and whereas it is always in a
+person's best interest that they make a useless number ever greater, therefore
+bribery is proposed as a means of ensuring the economy functions with coins
+changing hands. This legislation exists to limit the abuses of corruption
+intrinsic to bribery.
+
+1. No more than 20 coins may be offered to secure a vote either for or against a
+   proposed rule-change, nor may more than 10 coins be offered to secure a vote
+   for an election to an office.
+
+It is this author's hope that bribery serve only as an economic accelerant, and
+to the furtherance of fun that may be had in this game, rather than extortive or
+exploitative. Bribes should be offered, and not demanded.
