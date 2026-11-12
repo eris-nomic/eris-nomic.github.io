@@ -262,12 +262,22 @@ effect; but when the rules are silent, inconsistent, or unclear on the point at
 issue, then the Judge shall consider game-custom and the spirit of the game
 before applying other standards.
 
-## 217
+## 217 (amended by 315)
 
-A player's turn is considered to begin when either:
+This rule establishes the means by which a player may begin their turn, allowing
+either action taken as part of that turn, or a declaration of the turn before
+beginning the turn's actions.
 
-* the player takes their first legal action as part of their turn,
-* or the Speaker declares their turn is next.
+1. A player's turn is considered to begin when either:
+
+  * the player takes their first legal action as part of their turn,
+  * the player declares themself to be starting their turn at such time as they
+    are legally allowed to take a turn,
+  * or the Speaker declares whose turn is next.
+
+2. A player who begins their turn by declaring so on their own and who does not
+   take any further legal action as part of their turn within 24 hours is
+   considered not to have begun their turn, with their declaration annulled.
 
 ## 218
 
@@ -604,3 +614,10 @@ intrinsic to bribery.
 It is this author's hope that bribery serve only as an economic accelerant, and
 to the furtherance of fun that may be had in this game, rather than extortive or
 exploitative. Bribes should be offered, and not demanded.
+
+## 315. Declaring Your Turns Act
+
+This is an amendment to rule 217.
+
+1. This amendment may be referred to as the Declaring Your Turns Act.
+2. This amendment replaces the text of rule 217.
