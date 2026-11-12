@@ -269,12 +269,10 @@ either action taken as part of that turn, or a declaration of the turn before
 beginning the turn's actions.
 
 1. A player's turn is considered to begin when either:
-
-  * the player takes their first legal action as part of their turn,
-  * the player declares themself to be starting their turn at such time as they
-    are legally allowed to take a turn,
-  * or the Speaker declares whose turn is next.
-
+   * the player takes their first legal action as part of their turn,
+   * the player declares themself to be starting their turn at such time as they
+     are legally allowed to take a turn,
+   * or the Speaker declares whose turn is next.
 2. A player who begins their turn by declaring so on their own and who does not
    take any further legal action as part of their turn within 24 hours is
    considered not to have begun their turn, with their declaration annulled.
