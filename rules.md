@@ -619,3 +619,42 @@ This is an amendment to rule 217.
 
 1. This amendment may be referred to as the Declaring Your Turns Act.
 2. This amendment replaces the text of rule 217.
+
+## 316. Server Infrastructure Act
+
+This rule may also be referred to as the Server Infrastructure Act. The purpose
+of this rule is to define the means through which Discord elements, such as
+server icon, roles, and channels.
+
+1. Server Icon: A player may, at any time, propose a new icon to replace the
+   current server icon. This motion passes with a vote of simple majority after
+   24 hours.
+2. Channels: Channels are defined by rules.
+
+   * A. To create a new channel, a rule must be created that specifies the
+     creation of that channel and how it is to be used. To alter a channel, the
+     rule(s) that define that channel must be altered.
+   * B. As an alternative to 2.A, a rule may define an alternative method for
+     creating new channels. However, such a rule must specify 1) how the new
+     channels are to be created, 2) how channel rules for those channels are to
+     be defined, 3) a method to clearly record channel rules for those channels
+     created by this rule, and 4) a feasible method for deleting the channels
+     created through this rule.
+   * C. The following channels may not be altered or removed by any rules: All
+     meta channels, discussion, official, rules, clarifications
+   * D. The following channels will proceed with their current function until a
+     rule specifies their purpose: scoreboard, judgement-records, records,
+     rule-proposals, judgements
+   * E. Channel descriptions should state which rule(s) define them.
+   * F. If a channel created by 2.B cannot be removed by any legal means, it must
+     be deleted.
+3. Roles: Server roles, excluding the 'meta-roles,' are equivalent to offices.
+
+   * A. When a new office is created, a new role shall be created with the minimum
+     permissions necessary to fulfill that office.
+   * B. Meta-roles are roles that exist outside of the game to keep the server
+     running smoothly.
+
+The intention of this rule is to explicitly tie certain server elements to rules
+while creating a separate means for changing those elements which cannot
+meaningfully equate to game rules.
